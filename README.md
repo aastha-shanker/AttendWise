@@ -59,7 +59,6 @@ Each subject is assigned credits (weights).
 
 The system calculates weighted aggregate attendance using:
 
-```text
 Aggregate = Σ(Attendance × Credits) / Σ(Credits)
 The trained Logistic Regression model then predicts:
 
