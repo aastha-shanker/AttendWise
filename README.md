@@ -1,14 +1,12 @@
 # 🎓 AttendWise
 
----
-
 ## 🌐 Live Demo
 
-🔗 **Try AttendWise Live:** https://attendwise-hh8x5o9ebt4pr2kshtbxpu.streamlit.app/
+🔗 **Try AttendWise Live:** [Open App](YOUR_STREAMLIT_LINK)
 
 ---
 
-## 📌 About The Project
+# 📌 About The Project
 
 AttendWise is a **Machine Learning powered web application** that predicts whether a student is eligible to sit for exams based on subject-wise attendance.
 
@@ -16,7 +14,7 @@ The project uses **Logistic Regression** along with a **weighted aggregate atten
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
 - 📊 Subject-wise attendance input
 - ⚖ Weighted aggregate attendance calculation
@@ -29,7 +27,7 @@ The project uses **Logistic Regression** along with a **weighted aggregate atten
 
 ---
 
-## 🧠 Machine Learning Workflow
+# 🧠 Machine Learning Workflow
 
 This project follows a complete ML pipeline:
 
@@ -44,18 +42,18 @@ This project follows a complete ML pipeline:
 
 ---
 
-## 📚 Tech Stack
+# 📚 Tech Stack
 
 - **Python**
 - **Pandas**
 - **NumPy**
 - **Scikit-learn**
 - **Streamlit**
-
+- **Matplotlib**
 
 ---
 
-## ⚙ How It Works
+# ⚙ How It Works
 
 Each subject is assigned credits (weights).
 
@@ -65,16 +63,13 @@ The system calculates weighted aggregate attendance using:
 Aggregate = Σ(Attendance × Credits) / Σ(Credits)
 The trained Logistic Regression model then predicts:
 
-- ✅ Eligible for Exams
-- ❌ Debarred from Exams
+✅ Eligible for Exams
+❌ Debarred from Exams
 
 along with prediction probability.
 
 ---
-
-## 📂 Project Structure
-
-```bash
+# 📂 Project Structure
 AttendWise/
 │
 ├── app.py
@@ -83,18 +78,20 @@ AttendWise/
 ├── attendance_model.pkl
 ├── requirements.txt
 └── README.md
+
 ---
 
-## 📸 Future Improvements
+# 📸 Future Improvements
+
 📊 Analytics dashboard
 📁 Multi-student CSV upload
 🤖 AI chatbot integration
 📈 Advanced visualization
 🌙 Custom UI themes
 ☁ Cloud database integration
+--- 
 
----
-## 🎯 Learning Outcomes
+# 🎯 Learning Outcomes
 
 This project helped in understanding:
 
@@ -104,8 +101,7 @@ Feature engineering
 Model deployment
 Streamlit UI development
 End-to-end ML workflow
-
 ---
-## 👩‍💻 Author
+# 👩‍💻 Author
 
 Aastha Shanker
