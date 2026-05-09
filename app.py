@@ -102,6 +102,30 @@ if st.button("Predict Eligibility"):
 
     # probability
     probability = model.predict_proba(sample)
+    pass_prob = probability[0][1] * 100
+    if pass_prob >= 90:
+      risk = "🟢 SAFE"
+
+    elif pass_prob >= 70:
+      risk = "🟡 WARNING"
+
+    else:
+      risk = "🔴 HIGH RISK"
+      
+    subjects = {
+    "Maths": maths,
+    "DS": ds,
+    "TOC": toc,
+    "DBMS": dbms,
+    "Java": java
+}
+    
+
+    low_subjects = []
+
+    for subject, attendance in subjects.items():
+      if attendance < 75:
+        low_subjects.append(subject)
 
     # results
     st.metric(
@@ -115,6 +139,17 @@ if st.button("Predict Eligibility"):
     
     else:
         st.error("❌ Student is DEBARRED from exams")
-        
+    
+    st.metric(
+    "Risk Status",
+    risk
+)
+    if low_subjects:
 
+      st.warning(
+        f"⚠ Improve attendance in: {', '.join(low_subjects)}"
+    )
+
+    else:
+      st.success("🎉 Attendance looks good in all subjects!")
     
