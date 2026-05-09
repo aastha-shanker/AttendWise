@@ -2,7 +2,7 @@
 
 ## 🌐 Live Demo
 
-🔗 **Try AttendWise Live:** [Open App](YOUR_STREAMLIT_LINK)
+🔗 **Try AttendWise Live:** https://attendwise-hh8x5o9ebt4pr2kshtbxpu.streamlit.app/
 
 ---
 
@@ -69,6 +69,7 @@ along with prediction probability.
 
 ---
 # 📂 Project Structure
+
 AttendWise/
 │
 ├── app.py
@@ -91,9 +92,8 @@ AttendWise/
 --- 
 
 # 🎯 Learning Outcomes
-
+---
 This project helped in understanding:
-
 Logistic Regression
 Classification problems
 Feature engineering
