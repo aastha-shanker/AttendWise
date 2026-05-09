@@ -83,24 +83,28 @@ AttendWise/
 
 # 📸 Future Improvements
 
-📊 Analytics dashboard
-📁 Multi-student CSV upload
-🤖 AI chatbot integration
-📈 Advanced visualization
-🌙 Custom UI themes
-☁ Cloud database integration
---- 
+- 📊 Analytics dashboard  
+- 📁 Multi-student CSV upload  
+- 🤖 AI chatbot integration  
+- 📈 Advanced visualization  
+- 🌙 Custom UI themes  
+- ☁ Cloud database integration  
+
+---
 
 # 🎯 Learning Outcomes
----
+
 This project helped in understanding:
-Logistic Regression
-Classification problems
-Feature engineering
-Model deployment
-Streamlit UI development
-End-to-end ML workflow
+
+- Logistic Regression  
+- Classification problems  
+- Feature engineering  
+- Model deployment  
+- Streamlit UI development  
+- End-to-end ML workflow  
+
 ---
+
 # 👩‍💻 Author
 
 Aastha Shanker
