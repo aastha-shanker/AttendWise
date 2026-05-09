@@ -1,5 +1,5 @@
 # 🎓 AttendWise
-
+---
 ## 🌐 Live Demo
 
 🔗 **Try AttendWise Live:** https://attendwise-hh8x5o9ebt4pr2kshtbxpu.streamlit.app/
